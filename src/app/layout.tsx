@@ -1,16 +1,20 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
-import "./globals.css";
+import { Outfit } from "next/font/google";
+import { Raleway } from "next/font/google";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
+import "./globals.css";
+import { Header, TopBanner } from "@/components";
+
+const outfit = Outfit({
+  subsets: ["latin-ext"],
+  weight: ["100", "200", "300", "400", "500", "600", "800", "900"],
+  variable: "--font-outfit",
 });
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+
+const raleway = Raleway({
+  subsets: ["latin-ext"],
+  weight: ["100", "200", "300", "400", "500", "600", "800", "900"],
+  variable: "--font-raleway",
 });
 
 export const metadata: Metadata = {
@@ -25,10 +29,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <body className={`${outfit.variable} ${raleway.variable} antialiased`}>
+        <TopBanner />
+        <Header />
+        <main>{children}</main>
       </body>
     </html>
   );
