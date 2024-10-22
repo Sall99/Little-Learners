@@ -3,7 +3,7 @@ import { Outfit } from "next/font/google";
 import { Raleway } from "next/font/google";
 
 import "./globals.css";
-import { TopBanner } from "@/components";
+import { Header, TopBanner } from "@/components";
 
 const outfit = Outfit({
   subsets: ["latin-ext"],
@@ -31,6 +31,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${outfit.variable} ${raleway.variable} antialiased`}>
         <TopBanner />
+        <Header />
         <main>{children}</main>
       </body>
     </html>

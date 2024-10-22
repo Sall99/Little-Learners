@@ -35,11 +35,30 @@ const config: Config = {
         outfit: ["var(--font-outfit)"],
         raleway: ["var(--font-raleway)"],
       },
+      screens: {
+        sm: "640px",
+
+        md: "768px",
+
+        lg: "1024px",
+
+        xl: "1280px",
+
+        "2xl": "1600px",
+      },
       spacing: {
+        _10: "10px",
         _14: "14px",
         _18: "18px",
+        _30: "30px",
         _50: "50px",
+        _66: "66px",
         _72: "72px",
+        _76: "76px",
+        _88: "88px",
+        _177: "177px",
+        _195: "195px",
+        _230: "230px",
         _1644: "1644px",
         _1819: "1819px",
       },
