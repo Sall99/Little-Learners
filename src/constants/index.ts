@@ -24,3 +24,9 @@ export const NavLinks = [
     name: "Contact",
   },
 ];
+
+export const HeroStats = [
+  { title: "Students Passed Out", number: "7000" },
+  { title: "Awards & Recognitions", number: "37" },
+  { title: "Experience Educators", number: "15" },
+];
