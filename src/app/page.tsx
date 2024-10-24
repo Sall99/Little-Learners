@@ -1,9 +1,10 @@
-import { HeroSection } from "@/components";
+import { Benefits, HeroSection } from "@/components";
 
 export default function Home() {
   return (
     <div>
       <HeroSection />
+      <Benefits />
     </div>
   );
 }

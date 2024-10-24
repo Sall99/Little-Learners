@@ -17,7 +17,7 @@ type TypographyProps = {
 
 const headingSizes: Record<HeadingVariant, string> = {
   lg: "text-[38px] md:text-[48px] 2xl:text-[54px]",
-  md: "text-[22px] md:text-[24px]",
+  md: "text-[22px] md:text-[24px] 2xl:text-[28px]",
   sm: "text-[22px]",
 };
 
