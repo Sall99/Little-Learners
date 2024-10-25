@@ -1,0 +1,49 @@
+.slick-prev,
+.slick-next {
+  width: 48px;
+  height: 48px;
+  border: 2px solid var(--gray-color-700);
+  background-color: white !important;
+  padding: 14px;
+  border-radius: 8px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+.slick-prev,
+.slick-next {
+  color: black;
+}
+
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+  color: rgb(99, 99, 99);
+  outline: none;
+  background: rgb(99, 99, 99);
+}
+.slick-prev {
+  left: -60px;
+}
+
+.slick-next {
+  right: -60px;
+}
+
+@media (max-width: 600px) {
+  .slick-prev,
+  .slick-next {
+    top: 111%;
+  }
+
+  .slick-prev {
+    left: 100px;
+  }
+
+  .slick-next {
+    right: 100px;
+  }
+}

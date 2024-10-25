@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Typography } from "@/components";
+import { Heading, Typography } from "@/components";
 import { benefitsFeatures } from "@/constants";
 import Image from "next/image";
 
@@ -33,19 +33,15 @@ const Card = ({ title, description, icon }: CardProps) => {
 
 export const Benefits = () => {
   return (
-    <section className="px-4 lg:px-_50">
+    <section className="mb-10 px-4 lg:mb-_150 lg:mt-_60 lg:px-_50 2xl:mb-_200">
       <div className="m-auto max-w-_1590">
-        <div className="m-auto flex flex-col items-center justify-center gap-5 text-center lg:w-_992">
-          <Button size="sm">Children Deserve Bright Future</Button>
-          <Typography variant="h2" className="font-medium">
-            Our Benefits
-          </Typography>
-          <Typography variant="p">
-            With a dedicated team of experienced educators, state-of-the-art
-            facilities, and a comprehensive curriculum, we aim to lay a strong
-            foundation for your child s future.
-          </Typography>
-        </div>
+        <Heading
+          bntText="Children Deserve Bright Future"
+          title="Our Benefits"
+          description="With a dedicated team of experienced educators, state-of-the-art
+          facilities, and a comprehensive curriculum, we aim to lay a strong
+          foundation for your child s future."
+        />
         <div className="mt-_100">
           <ul className="grid grid-cols-1 gap-10 gap-y-_76 lg:grid-cols-2 min-[1350px]:grid-cols-3">
             {benefitsFeatures.map(({ title, description, icon }, key) => (
