@@ -107,3 +107,49 @@ export const testimonialsData = [
       "Little Learners Academy is a great place for young children to learn and grow. I only wish there were more language classes offered.",
   },
 ];
+
+export const faqs = [
+  {
+    id: 1,
+    question: "What are the school hours at Little Learners Academy?",
+    answer:
+      "Our school hours are from 8:00 AM to 3:00 PM, Monday to Friday. We also offer extended care options for parents who need early drop-off or late pick-up.",
+  },
+  {
+    id: 2,
+    question: "How do you handle food allergies and dietary restrictions?",
+    answer:
+      "We take food allergies and dietary restrictions very seriously. Parents are asked to provide detailed information about their child’s dietary needs, and our staff ensures that all meals and snacks provided are safe and suitable for each child.",
+  },
+  {
+    id: 3,
+    question:
+      "What is the teacher-to-student ratio at Little Learners Academy?",
+    answer:
+      "The teacher-to-student ratio at Little Learners Academy is 1:10 for preschoolers and 1:5 for toddlers, ensuring that each child receives personalized attention and care.",
+  },
+  {
+    id: 4,
+    question: "Is there a uniform policy for students?",
+    answer:
+      "Yes, we have a casual uniform policy at Little Learners Academy. Students are required to wear the school uniform, which consists of comfortable, weather-appropriate clothing with the academy's logo.",
+  },
+  {
+    id: 5,
+    question: "How do you handle discipline and behavior management?",
+    answer:
+      "We use positive reinforcement and age-appropriate behavior management strategies. Our goal is to guide children towards understanding acceptable behavior while fostering a supportive and respectful environment.",
+  },
+  {
+    id: 6,
+    question: "How do I apply for admission to Little Learners Academy?",
+    answer:
+      "To apply for admission, please visit our website to fill out the online application form. You can also contact our admissions office for assistance with the enrollment process.",
+  },
+  {
+    id: 7,
+    question: "What extracurricular activities are available for students?",
+    answer:
+      "We offer a variety of extracurricular activities, including music, dance, art, and sports programs. These activities are designed to complement the academic curriculum and promote the holistic development of our students.",
+  },
+];
