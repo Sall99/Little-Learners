@@ -4,3 +4,4 @@ export * from "./hero-section";
 export * from "./benefits";
 export * from "./testimonials";
 export * from "./rating";
+export * from "./faq";
