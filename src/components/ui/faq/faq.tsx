@@ -13,7 +13,7 @@ import clsx from "clsx";
 
 function Disclo() {
   return (
-    <div className="h-screen w-full pt-32">
+    <div className="w-full pt-32">
       <div className="mx-auto w-full divide-y divide-white/5 rounded-xl bg-white/5">
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
           {faqs.map(({ question, answer, id }) => (
