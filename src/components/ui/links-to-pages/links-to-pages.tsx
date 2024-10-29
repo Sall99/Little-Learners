@@ -15,7 +15,7 @@ interface CardProps {
 const Card = ({ title, description, link }: CardProps) => {
   const router = useRouter();
   return (
-    <div className="m-auto flex flex-col items-center rounded-lg border-2 border-gray-700 bg-white p-10 md:h-_467 md:w-_620 lg:p-_60 2xl:h-_588 2xl:w-_773 2xl:p-20">
+    <div className="m-auto flex flex-col items-center justify-between rounded-lg border-2 border-gray-700 bg-white p-10 md:h-_467 md:w-_620 lg:p-_60 2xl:h-_588 2xl:w-_773 2xl:p-20">
       <Typography variant="h2" className="font-medium" headingSize="md">
         {title}
       </Typography>
@@ -40,14 +40,14 @@ const Card = ({ title, description, link }: CardProps) => {
 
 export const LinksToPages = () => {
   return (
-    <section className="mb-_150 px-4 lg:px-_50">
+    <section className="mb-10 px-4 lg:mb-_150 lg:px-_50 2xl:mb-_200">
       <div className="m-auto max-w-_1590">
         <Heading
-          bntText="Solutions For The Doubts"
-          title="Frequently Asked Questions"
-          description="Find all the essential information you need in our FAQ section, designed to address the most frequently asked questions and help you make informed decisions for your child's education."
+          bntText="Explore More"
+          title="Navigate through our Pages"
+          description="Your gateway to discovering a wealth of valuable information about our kindergarten school, Feel free to explore and learn more about the enriching experiences that await your child at our kindergarten school"
         />
-        <div className="mt-_100 grid grid-cols-1 gap-10 min-[1300px]:grid-cols-2 2xl:gap-_50">
+        <div className="grid grid-cols-1 gap-10 min-[1300px]:grid-cols-2 2xl:gap-_50">
           {linksToOthersPages.map(({ title, description, link }, key) => (
             <Card
               key={key}

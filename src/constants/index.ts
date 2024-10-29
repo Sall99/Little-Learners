@@ -180,3 +180,92 @@ export const linksToOthersPages = [
     link: "/admissions",
   },
 ];
+
+export const FooterLinks = {
+  Home: [
+    {
+      name: "Features",
+      path: "/features",
+    },
+    {
+      name: "Our Testimonials",
+      path: "/our-testimonials",
+    },
+    {
+      name: "FAQ",
+      path: "/faq",
+    },
+  ],
+  "About us": [
+    {
+      name: "Our Mission",
+      path: "/our-mission",
+    },
+    {
+      name: "Our Vission",
+      path: "/our-vission",
+    },
+    {
+      name: "Awards and Recognitions",
+      path: "/awards-and-recognitions",
+    },
+    {
+      name: "History",
+      path: "/history",
+    },
+    {
+      name: "Teachers",
+      path: "/teachers",
+    },
+  ],
+  Academics: [
+    {
+      name: "Special Features",
+      path: "/special-features",
+    },
+    {
+      name: "Gallery",
+      path: "/gallery",
+    },
+  ],
+  "Contact Us": [
+    {
+      name: "Information",
+      path: "/information",
+    },
+    {
+      name: "Map & Direction",
+      path: "/map-direction",
+    },
+  ],
+};
+
+export const footerPrivacyLinks = [
+  {
+    name: "Terms of Service",
+    path: "terms-of-service",
+  },
+  {
+    name: "Privacy Policy",
+    path: "privacy-policy",
+  },
+  {
+    name: "Cookie Policy",
+    path: "cookie-policy",
+  },
+];
+
+export const footerSocialNetworkLinks = [
+  {
+    name: "face-book",
+    icon: "face-book.png",
+  },
+  {
+    name: "x",
+    icon: "x.png",
+  },
+  {
+    name: "linkedin",
+    icon: "linkedin.png",
+  },
+];

@@ -25,3 +25,7 @@
 body {
   background-color: var(--primary-color-200);
 }
+
+.lg-box-shadow {
+  box-shadow: 2px 2px 0px 2px #1e1e1e;
+}

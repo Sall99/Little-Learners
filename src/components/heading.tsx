@@ -10,7 +10,7 @@ interface HeadingProps {
 
 export const Heading = ({ bntText, title, description }: HeadingProps) => {
   return (
-    <div className="m-auto flex flex-col items-center justify-center gap-5 text-center lg:w-_992">
+    <div className="m-auto mb-_50 flex flex-col items-center justify-center gap-5 text-center lg:mb-20 lg:w-_992 2xl:mt-_100">
       <Button size="sm">{bntText}</Button>
       <Typography variant="h2" className="font-medium">
         {title}

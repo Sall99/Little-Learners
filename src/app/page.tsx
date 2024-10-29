@@ -1,6 +1,7 @@
 import {
   Benefits,
   Faq,
+  Footer,
   HeroSection,
   LinksToPages,
   Testimonials,
@@ -8,12 +9,13 @@ import {
 
 export default function Home() {
   return (
-    <div>
+    <>
       <HeroSection />
       <Benefits />
       <Testimonials />
       <Faq />
       <LinksToPages />
-    </div>
+      <Footer />
+    </>
   );
 }
