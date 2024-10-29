@@ -6,3 +6,4 @@ export * from "./testimonials";
 export * from "./rating";
 export * from "./faq";
 export * from "./links-to-pages";
+export * from "./footer";

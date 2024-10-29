@@ -25,6 +25,10 @@
   outline: none;
   background: rgb(99, 99, 99);
 }
+
+.slick-list {
+  padding: 10px 0;
+}
 .slick-prev {
   left: -60px;
 }

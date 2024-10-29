@@ -49,7 +49,7 @@ const settings = {
 
 const Card = ({ name, rating, testimonial, avatar }: CardProps) => {
   return (
-    <div className="w-_340 h-_374 2xl:w-_425 2xl:h-_462 m-auto flex flex-col items-center rounded-xl border border-b-8 border-r-8 border-gray-700 bg-white p-5 2xl:p-_50">
+    <div className="lg-box-shadow m-auto flex h-_374 w-_340 flex-col items-center rounded-xl border border-gray-700 bg-white p-5 2xl:h-_462 2xl:w-_425 2xl:p-_50">
       <div className="mb-3 flex items-center justify-center rounded-full border border-gray-700 bg-primary-300 p-2">
         <div className="relative h-11 w-11 2xl:h-14 2xl:w-14">
           <Image src={avatar} alt={name} fill />
@@ -68,7 +68,7 @@ const Card = ({ name, rating, testimonial, avatar }: CardProps) => {
 
 export const Testimonials = () => {
   return (
-    <section className="mb-_150 px-4 lg:px-_50">
+    <section className="mb-_150 px-4 lg:px-_50 2xl:mb-_200">
       <div className="m-auto max-w-_1590">
         <Heading
           bntText="Their Happy Words 🤗"
@@ -76,7 +76,7 @@ export const Testimonials = () => {
           description="Our testimonials are heartfelt reflections of the nurturing environment we provide, where children flourish both academically and emotionally."
         />
 
-        <div className="2xl:px-_108 mt-_100 min-[600px]:px-_88">
+        <div className="min-[600px]:px-_88 2xl:px-_108">
           <Slider {...settings}>
             {testimonialsData.map(
               ({ name, rating, testimonial, avatar }, key) => (
