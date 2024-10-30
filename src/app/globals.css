@@ -29,3 +29,24 @@ body {
 .lg-box-shadow {
   box-shadow: 2px 2px 0px 2px #1e1e1e;
 }
+
+.layout {
+  margin-bottom: 80px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+@media (min-width: 1024px) {
+  .layout {
+    margin-bottom: 150px;
+    margin-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .layout {
+    margin-bottom: 200px;
+  }
+}
