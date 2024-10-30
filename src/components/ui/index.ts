@@ -8,3 +8,4 @@ export * from "./faq";
 export * from "./links-to-pages";
 export * from "./footer";
 export * from "./overview";
+export * from "./our-missions";
