@@ -6,7 +6,7 @@ import { HeroStats } from "@/constants";
 
 export const HeroSection = () => {
   return (
-    <section className="2xl:mb-_200 lg:mb-_150 mb-10 mt-_50 px-4 lg:mt-_60 lg:px-_50 2xl:mt-20">
+    <section className="mb-10 px-4 lg:mb-_150 lg:px-_50 2xl:mb-_200">
       <div className="m-auto flex max-w-_1590 flex-col gap-10 lg:gap-_50 xl:flex-row 2xl:gap-_60">
         <div className="flex-1">
           <div className="relative mx-auto aspect-square w-full max-w-2xl md:aspect-[15/16] 2xl:aspect-[15/16]">
