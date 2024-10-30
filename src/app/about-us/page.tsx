@@ -1,6 +1,6 @@
 import React from "react";
 
-import { OurMissions, Overview } from "@/components";
+import { AwardsRecognitions, OurMissions, Overview } from "@/components";
 
 const AboutPage = () => {
   return (
@@ -12,6 +12,7 @@ const AboutPage = () => {
         }
       />
       <OurMissions />
+      <AwardsRecognitions />
     </>
   );
 };

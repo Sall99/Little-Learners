@@ -1,4 +1,4 @@
-.slick-prev,
+.\testimonials-container .slick-prev,
 .slick-next {
   width: 48px;
   height: 48px;
@@ -8,16 +8,16 @@
   border-radius: 8px;
 }
 
-.slick-prev:before,
+.testimonials-container .slick-prev:before,
 .slick-next:before {
   color: black;
 }
-.slick-prev,
+.testimonials-container .slick-prev,
 .slick-next {
   color: black;
 }
 
-.slick-prev:hover,
+.testimonials-container .slick-prev:hover,
 .slick-prev:focus,
 .slick-next:hover,
 .slick-next:focus {
@@ -29,25 +29,25 @@
 .slick-list {
   padding: 10px 0;
 }
-.slick-prev {
+.testimonials-container .slick-prev {
   left: -60px;
 }
 
-.slick-next {
+.testimonials-container .slick-next {
   right: -60px;
 }
 
 @media (max-width: 600px) {
-  .slick-prev,
+  .testimonials-container .slick-prev,
   .slick-next {
     top: 111%;
   }
 
-  .slick-prev {
+  .testimonials-container .slick-prev {
     left: 100px;
   }
 
-  .slick-next {
+  .testimonials-container .slick-next {
     right: 100px;
   }
 }
