@@ -288,3 +288,60 @@ export const OurMissionCards = [
     h: 50,
   },
 ];
+
+export const awardsCard = [
+  {
+    title: "Outstanding Early Childhood Education Award",
+    icon: "award-1.png",
+    description:
+      "Presented by the National Association for the Education of Young Children (NAEYC) in recognition of Little Learners Academy's commitment to delivering exceptional early childhood education and fostering a nurturing learning environment.",
+  },
+  {
+    title: "Innovative STEAM Education Award",
+    icon: "award-2.png",
+    description:
+      "Awarded by the Education Excellence Association for our pioneering efforts in introducing innovative STEAM (Science, Technology, Engineering, Arts, and Mathematics) programs that ignite creativity and critical thinking in young learners.",
+  },
+  {
+    title: "Environmental Stewardship Award",
+    icon: "award-3.png",
+    description:
+      "Received from the Green Earth Society for our dedication to environmental education, sustainable practices, and fostering a love for nature in our students.",
+  },
+  {
+    title: "Community Engagement Excellence Award",
+    icon: "award-1.png",
+    description:
+      "Recognized by the Community Development Board for our active involvement in community projects and fostering a sense of civic responsibility in our students.",
+  },
+  {
+    title: "Inclusive Education Champion Award",
+    icon: "award-2.png",
+    description:
+      "Awarded by the Diversity in Education Foundation for our commitment to inclusivity, diversity, and providing a welcoming environment for all students.",
+  },
+  {
+    title: "Excellence in Arts Education Award",
+    icon: "award-3.png",
+    description:
+      "Presented by the National Arts Education Association for our dedication to integrating arts into the curriculum and fostering artistic expression among students.",
+  },
+  {
+    title: "Digital Learning Innovator Award",
+    icon: "award-1.png",
+    description:
+      "Granted by the Educational Technology Council in recognition of our advancements in digital learning and utilizing technology to enhance educational experiences.",
+  },
+  {
+    title: "Health and Wellness Leadership Award",
+    icon: "award-2.png",
+    description:
+      "Awarded by the Health and Wellness Council for our focus on promoting physical, mental, and emotional well-being among students and staff.",
+  },
+  {
+    title: "Parent Partnership Award",
+    icon: "award-3.png",
+    description:
+      "Presented by the Family Engagement Institute for our efforts to foster strong partnerships with parents and families, encouraging active involvement in their children's learning journey.",
+  },
+];

@@ -1,0 +1,101 @@
+.awards-recognitions .slick-prev,
+.slick-next {
+  width: 48px;
+  height: 48px;
+  border: 2px solid var(--gray-color-700);
+  background-color: white !important;
+  padding: 14px;
+  border-radius: 8px;
+}
+
+.awards-recognitions .slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+.awards-recognitions .slick-prev,
+.slick-next {
+  color: black;
+}
+
+.awards-recognitions .slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+  color: rgb(99, 99, 99);
+  outline: none;
+  background: rgb(99, 99, 99);
+}
+
+.awards-recognitions .slick-list {
+  padding: 10px 0;
+}
+
+.awards-recognitions .slick-prev,
+.slick-next {
+  top: 111%;
+}
+
+.awards-recognitions .slick-prev {
+  left: 70%;
+}
+
+.awards-recognitions .slick-next {
+  right: 5%;
+}
+
+.awards-recognitions .slick-prev {
+  left: 85%;
+}
+
+.awards-recognitions .slick-next {
+  right: 0%;
+}
+
+@media (max-width: 1600px) {
+  .awards-recognitions .slick-prev {
+    left: 85%;
+  }
+
+  .awards-recognitions .slick-next {
+    right: 2%;
+  }
+}
+@media (max-width: 900px) {
+  .awards-recognitions .slick-prev {
+    left: 55%;
+  }
+
+  .awards-recognitions .slick-next {
+    right: 22%;
+  }
+}
+
+@media (max-width: 700px) {
+  .awards-recognitions .slick-prev {
+    left: 55%;
+  }
+
+  .awards-recognitions .slick-next {
+    right: 15%;
+  }
+}
+
+@media (max-width: 600px) {
+  .awards-recognitions .slick-prev {
+    left: 55%;
+  }
+
+  .awards-recognitions .slick-next {
+    right: 20%;
+  }
+}
+
+@media (max-width: 400px) {
+  .awards-recognitions .slick-prev {
+    left: 55%;
+  }
+
+  .awards-recognitions .slick-next {
+    right: 10%;
+  }
+}

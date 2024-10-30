@@ -68,7 +68,7 @@ const Card = ({ name, rating, testimonial, avatar }: CardProps) => {
 
 export const Testimonials = () => {
   return (
-    <section className="mb-_150 px-4 lg:px-_50 2xl:mb-_200">
+    <section className="testimonials-container mb-_150 px-4 lg:px-_50 2xl:mb-_200">
       <div className="m-auto max-w-_1590">
         <Heading
           bntText="Their Happy Words 🤗"
