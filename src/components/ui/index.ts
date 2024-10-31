@@ -10,3 +10,5 @@ export * from "./footer";
 export * from "./overview";
 export * from "./our-missions";
 export * from "./awards-recognitions";
+export * from "./history";
+export * from "./timelineItem";
