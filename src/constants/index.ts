@@ -345,3 +345,75 @@ export const awardsCard = [
       "Presented by the Family Engagement Institute for our efforts to foster strong partnerships with parents and families, encouraging active involvement in their children's learning journey.",
   },
 ];
+
+export const historyTimelineData = [
+  {
+    year: "2023",
+    title: "Resilience and Future Horizons",
+    description:
+      "Adapting to new challenges, we remained committed to our mission of providing an exceptional early education. Looking ahead with optimism, we envision a future filled with boundless possibilities as we continue shaping the leaders and thinkers of tomorrow.",
+  },
+  {
+    year: "2017",
+    title: "Innovation and Technology",
+    description:
+      "Innovation became the driving force behind our kindergarten's progress from 2016 to 2020. Embracing the latest educational technologies, we crafted engaging and interactive learning experiences for our students.",
+  },
+  {
+    year: "2012",
+    title: "Expansion and Recognition",
+    description:
+      "These years marked a period of expansion and recognition for our school. As we extended our facilities and enhanced our curriculum, we received accolades for our commitment to quality education and innovative teaching methodologies.",
+  },
+  {
+    year: "2005",
+    title: "Inception and Growth",
+    description:
+      "Established in 2005, our kindergarten school began its journey with a vision to provide a nurturing space for young minds to explore, learn, and grow. Over the next five years, we witnessed significant growth.",
+  },
+];
+
+export const teachers = [
+  {
+    name: "Ms. Sarah Anderson",
+    img: "teacher-1.png",
+    qualification: "Bachelor's Degree in Early Childhood Education",
+    description:
+      "Ms. Sarah is a passionate educator with over 10 years of experience in guiding young minds. Her warm and nurturing approach creates a welcoming classroom environment where children feel comfortable to explore and learn.",
+  },
+  {
+    name: "Mr. David Roberts",
+    img: "teacher-1.png",
+    qualification: "Master's Degree in Elementary Education",
+    description:
+      "With a strong background in elementary education, Mr. David brings a creative and interactive teaching style to his classroom. His enthusiasm for learning inspires students to ask questions and think critically.",
+  },
+  {
+    name: "Ms. Emily Hernandez",
+    img: "teacher-1.png",
+    qualification: "Diploma in Child Psychology",
+    description:
+      "Ms. Emily's expertise in child psychology enables her to understand each child's unique needs and provide individualized support. Her caring nature fosters a strong sense of belonging and confidence in her students.",
+  },
+  {
+    name: "Mr. Michael Turner",
+    img: "teacher-1.png",
+    qualification: "Bachelor's Degree in Physical Education",
+    description:
+      "Mr. Michael's passion for physical fitness and sports shines through in his energetic classes. He encourages students to stay active, promoting teamwork and a healthy lifestyle.",
+  },
+  {
+    name: "Ms. Jessica Lee",
+    img: "teacher-1.png",
+    qualification: "Master's Degree in Special Education",
+    description:
+      "Ms. Jessica's specialization in special education allows her to create an inclusive and supportive learning environment for all students. She is dedicated to helping every child reach their full potential.",
+  },
+  {
+    name: "Mr. William Parker",
+    img: "teacher-1.png",
+    qualification: "Bachelor's Degree in Fine Arts",
+    description:
+      "Mr. William's background in fine arts brings creativity and imagination to his classroom. Through art projects and activities, he nurtures the artistic expression and self-confidence of his students.",
+  },
+];
