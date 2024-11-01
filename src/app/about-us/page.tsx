@@ -5,6 +5,7 @@ import {
   History,
   OurMissions,
   Overview,
+  TeamMembers,
 } from "@/components";
 
 const AboutPage = () => {
@@ -19,6 +20,7 @@ const AboutPage = () => {
       <OurMissions />
       <AwardsRecognitions />
       <History />
+      <TeamMembers />
     </>
   );
 };

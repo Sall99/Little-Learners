@@ -372,3 +372,48 @@ export const historyTimelineData = [
       "Established in 2005, our kindergarten school began its journey with a vision to provide a nurturing space for young minds to explore, learn, and grow. Over the next five years, we witnessed significant growth.",
   },
 ];
+
+export const teachers = [
+  {
+    name: "Ms. Sarah Anderson",
+    img: "teacher-1.png",
+    qualification: "Bachelor's Degree in Early Childhood Education",
+    description:
+      "Ms. Sarah is a passionate educator with over 10 years of experience in guiding young minds. Her warm and nurturing approach creates a welcoming classroom environment where children feel comfortable to explore and learn.",
+  },
+  {
+    name: "Mr. David Roberts",
+    img: "teacher-1.png",
+    qualification: "Master's Degree in Elementary Education",
+    description:
+      "With a strong background in elementary education, Mr. David brings a creative and interactive teaching style to his classroom. His enthusiasm for learning inspires students to ask questions and think critically.",
+  },
+  {
+    name: "Ms. Emily Hernandez",
+    img: "teacher-1.png",
+    qualification: "Diploma in Child Psychology",
+    description:
+      "Ms. Emily's expertise in child psychology enables her to understand each child's unique needs and provide individualized support. Her caring nature fosters a strong sense of belonging and confidence in her students.",
+  },
+  {
+    name: "Mr. Michael Turner",
+    img: "teacher-1.png",
+    qualification: "Bachelor's Degree in Physical Education",
+    description:
+      "Mr. Michael's passion for physical fitness and sports shines through in his energetic classes. He encourages students to stay active, promoting teamwork and a healthy lifestyle.",
+  },
+  {
+    name: "Ms. Jessica Lee",
+    img: "teacher-1.png",
+    qualification: "Master's Degree in Special Education",
+    description:
+      "Ms. Jessica's specialization in special education allows her to create an inclusive and supportive learning environment for all students. She is dedicated to helping every child reach their full potential.",
+  },
+  {
+    name: "Mr. William Parker",
+    img: "teacher-1.png",
+    qualification: "Bachelor's Degree in Fine Arts",
+    description:
+      "Mr. William's background in fine arts brings creativity and imagination to his classroom. Through art projects and activities, he nurtures the artistic expression and self-confidence of his students.",
+  },
+];
