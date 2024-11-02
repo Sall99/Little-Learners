@@ -13,3 +13,4 @@ export * from "./awards-recognitions";
 export * from "./history";
 export * from "./timelineItem";
 export * from "./team-members";
+export * from "./features";

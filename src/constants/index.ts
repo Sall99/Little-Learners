@@ -417,3 +417,42 @@ export const teachers = [
       "Mr. William's background in fine arts brings creativity and imagination to his classroom. Through art projects and activities, he nurtures the artistic expression and self-confidence of his students.",
   },
 ];
+
+export const educationPrograms = [
+  {
+    title: "Thematic Learning",
+    icon: "feature-1.png",
+    description:
+      "Our curriculum is centered around engaging themes that capture children's imaginations. Each theme integrates multiple subjects, making learning enjoyable and relevant.",
+  },
+  {
+    title: "STEAM Education",
+    icon: "feature-2.png",
+    description:
+      "We offer innovative STEAM (Science, Technology, Engineering, Arts, and Mathematics) programs that promote hands-on exploration, critical thinking, and problem-solving skills.",
+  },
+  {
+    title: "Language Immersion",
+    icon: "feature-3.png",
+    description:
+      "Through language immersion programs, children have the opportunity to learn a second language, enhancing cognitive development and global awareness.",
+  },
+  {
+    title: "Art and Creativity",
+    icon: "feature-4.png",
+    description:
+      "Art is celebrated at Little Learners Academy. Our art-focused activities encourage self-expression, creativity, and the appreciation of various art forms.",
+  },
+  {
+    title: "Outdoor Education",
+    icon: "feature-5.png",
+    description:
+      "Our expansive outdoor learning spaces provide a stimulating environment for children to explore nature, fostering a connection with the environment.",
+  },
+  {
+    title: "Play-Based Learning",
+    icon: "feature-6.png",
+    description:
+      "Play is an integral part of early childhood education. Our play-based approach enhances social skills, emotional development, and imaginative thinking.",
+  },
+];
