@@ -456,3 +456,38 @@ export const educationPrograms = [
       "Play is an integral part of early childhood education. Our play-based approach enhances social skills, emotional development, and imaginative thinking.",
   },
 ];
+
+export const subjects = [
+  {
+    title: "Language Arts",
+    description: "Reading, writing, storytelling, and communication skills.",
+    img: "https://res.cloudinary.com/dx6jhjxpt/image/upload/v1730577862/little-learners/Image_12_bcvl1h.png",
+  },
+  {
+    title: "Mathematics",
+    description: "Number sense, basic operations, problem-solving, and logic.",
+    img: "https://res.cloudinary.com/dx6jhjxpt/image/upload/v1730577862/little-learners/Image_13_sizqnc.png",
+  },
+  {
+    title: "Science",
+    description:
+      "Exploring the natural world through hands-on experiments and investigations.",
+    img: "https://res.cloudinary.com/dx6jhjxpt/image/upload/v1730577866/little-learners/Image_14_ya5uid.png",
+  },
+  {
+    title: "Social Studies",
+    description:
+      "Cultivating an understanding of diverse cultures and communities.",
+    img: "https://res.cloudinary.com/dx6jhjxpt/image/upload/v1730577862/little-learners/Image_13_sizqnc.png",
+  },
+  {
+    title: "Arts and Crafts",
+    description: "Encouraging creativity through various art forms and crafts.",
+    img: "https://res.cloudinary.com/dx6jhjxpt/image/upload/v1730577864/little-learners/Image_16_v1m9fj.png",
+  },
+  {
+    title: "Physical Education",
+    description: "Promoting physical fitness, coordination, and teamwork.",
+    img: "https://res.cloudinary.com/dx6jhjxpt/image/upload/v1730577864/little-learners/Image_17_dhblbc.png",
+  },
+];
