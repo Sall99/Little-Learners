@@ -14,3 +14,4 @@ export * from "./history";
 export * from "./timelineItem";
 export * from "./team-members";
 export * from "./features";
+export * from "./what-students-learn";
