@@ -491,3 +491,62 @@ export const subjects = [
     img: "https://res.cloudinary.com/dx6jhjxpt/image/upload/v1730577864/little-learners/Image_17_dhblbc.png",
   },
 ];
+
+export const classrooms = {
+  images: [
+    "https://res.cloudinary.com/dx6jhjxpt/image/upload/v1730735586/little-learners/Image_18_yq4nve.png",
+    "https://res.cloudinary.com/dx6jhjxpt/image/upload/v1730735586/little-learners/Image_19_z7fmje.png",
+    "https://res.cloudinary.com/dx6jhjxpt/image/upload/v1730735586/little-learners/Image_20_oknxt6.png",
+    "https://res.cloudinary.com/dx6jhjxpt/image/upload/v1730735586/little-learners/Image_21_zh4r7o.png",
+  ],
+  title: "Classrooms",
+  description:
+    "Our well-equipped classrooms are designed to provide a nurturing and stimulating learning environment. Each classroom is thoughtfully arranged to inspire creativity, curiosity, and engagement.",
+};
+
+export const librairies = {
+  images: [
+    "https://res.cloudinary.com/dx6jhjxpt/image/upload/v1730735741/little-learners/Image_22_qvmdrb.png",
+    "https://res.cloudinary.com/dx6jhjxpt/image/upload/v1730735742/little-learners/Image_23_skiudm.png",
+    "https://res.cloudinary.com/dx6jhjxpt/image/upload/v1730735741/little-learners/Image_25_zsrisn.png",
+    "https://res.cloudinary.com/dx6jhjxpt/image/upload/v1730735742/little-learners/Image_24_ctaqw4.png",
+  ],
+  title: "Library",
+  description:
+    "Our expansive library is a treasure trove of books, fostering a love for reading and supporting students' literacy development.",
+};
+
+export const scienceLabs = {
+  images: [
+    "https://res.cloudinary.com/dx6jhjxpt/image/upload/v1730736426/little-learners/Image_27_fumvnm.png",
+    "https://res.cloudinary.com/dx6jhjxpt/image/upload/v1730736426/little-learners/Image_26_javavy.png",
+    "https://res.cloudinary.com/dx6jhjxpt/image/upload/v1730736426/little-learners/Image_28_dmyrjr.png",
+    "https://res.cloudinary.com/dx6jhjxpt/image/upload/v1730736426/little-learners/Image_29_wgrrlz.png",
+  ],
+  title: "Science Lab",
+  description:
+    "Our hands-on science lab allows students to conduct experiments and explore scientific concepts in a fun and interactive way.",
+};
+export const computerLabs = {
+  images: [
+    "https://res.cloudinary.com/dx6jhjxpt/image/upload/v1730736608/little-learners/Image_33_srsxco.png",
+    "https://res.cloudinary.com/dx6jhjxpt/image/upload/v1730736607/little-learners/Image_31_zvlkck.png",
+    "https://res.cloudinary.com/dx6jhjxpt/image/upload/v1730736607/little-learners/Image_32_gg1h1e.png",
+    "https://res.cloudinary.com/dx6jhjxpt/image/upload/v1730736607/little-learners/Image_30_kkaqvm.png",
+  ],
+  title: "Computer Lab",
+  description:
+    "Equipped with age-appropriate technology, the computer lab enhances students' digital literacy and computational skills",
+};
+
+export const gardenandNatureArea = {
+  images: [
+    "https://res.cloudinary.com/dx6jhjxpt/image/upload/v1730736789/little-learners/Image_38_jbdwi8.png",
+    "https://res.cloudinary.com/dx6jhjxpt/image/upload/v1730736767/little-learners/Image_37_llme3z.png",
+    "https://res.cloudinary.com/dx6jhjxpt/image/upload/v1730736767/little-learners/Image_36_j6ftgq.png",
+    "https://res.cloudinary.com/dx6jhjxpt/image/upload/v1730736767/little-learners/Image_35_gwsso8.png",
+  ],
+  title: "Garden and Nature Area",
+  description:
+    "Our garden and nature area offer an opportunity for children to connect with nature and learn about plants and the environment.",
+};

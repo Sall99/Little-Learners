@@ -5,7 +5,7 @@ import { Raleway } from "next/font/google";
 import "./globals.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { Header, TopBanner } from "@/components";
+import { Footer, Header, TopBanner } from "@/components";
 
 const outfit = Outfit({
   subsets: ["latin-ext"],
@@ -35,6 +35,7 @@ export default function RootLayout({
         <TopBanner />
         <Header />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );

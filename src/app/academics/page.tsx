@@ -1,4 +1,4 @@
-import { Features, Overview, WhatStudentsLearn } from "@/components";
+import { Features, Gallery, Overview, WhatStudentsLearn } from "@/components";
 import React from "react";
 
 const AcademicsPage = () => {
@@ -12,6 +12,7 @@ const AcademicsPage = () => {
       />
       <Features />
       <WhatStudentsLearn />
+      <Gallery />
     </>
   );
 };

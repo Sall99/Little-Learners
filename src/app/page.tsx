@@ -1,7 +1,6 @@
 import {
   Benefits,
   Faq,
-  Footer,
   HeroSection,
   LinksToPages,
   Testimonials,
@@ -15,7 +14,6 @@ export default function Home() {
       <Testimonials />
       <Faq />
       <LinksToPages />
-      <Footer />
     </>
   );
 }
