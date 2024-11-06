@@ -16,7 +16,7 @@ interface TabsProps {
 
 export function Tabs({ categories }: TabsProps) {
   return (
-    <div className="flex w-full justify-center px-4">
+    <div className="flex w-full justify-center">
       <div className="w-full">
         <TabGroup>
           <TabList className="flex w-full items-center gap-4 overflow-x-auto whitespace-nowrap lg:justify-center">

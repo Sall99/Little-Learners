@@ -48,13 +48,13 @@ const settings = {
 
 export const ImgContainer = ({ content }: ImagContainerProps) => {
   return (
-    <div className="lg-box-shadow img-container relative mt-44 rounded-xl border-2 border-gray-700 px-_50 pb-_50 pt-_137 lg:mt-64 2xl:mt-_304 2xl:pt-_177">
+    <div className="lg-box-shadow img-container relative mt-44 rounded-xl border-2 border-gray-700 px-_30 pb-_50 pt-_137 md:px-_50 lg:mt-64 2xl:mt-_304 2xl:pt-_177">
       <div className="flex items-center justify-center">
         <div className="absolute -top-[40%]">
           <Slider {...settings}>
             {content.images.map((img, key) => (
               <div key={key}>
-                <div className="w-_270 lg:h-_234 relative m-auto h-_200 2xl:h-_304 2xl:w-_344">
+                <div className="relative m-auto h-_200 w-_270 lg:h-_234 2xl:h-_304 2xl:w-_344">
                   <Image src={img} alt="Shape" fill />
                 </div>
               </div>
