@@ -23,7 +23,7 @@ const headingSizes: Record<HeadingVariant, string> = {
 
 const paragraphSizes: Record<ParagraphVariant, string> = {
   md: "text-[14px] md:text-[16px] lg:text-[20px]",
-  sm: "text-[16px] 2xl:text-[20px]",
+  sm: "text-[14px] md:text-[16px] 2xl:text-[20px]",
 };
 
 const fontType: Record<FontType, string> = {

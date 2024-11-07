@@ -17,3 +17,4 @@ export * from "./features";
 export * from "./what-students-learn";
 export * from "./gallery";
 export * from "./tabs";
+export * from "./admissions-process";
