@@ -649,3 +649,22 @@ export const studentSupport = [
       "We foster a strong partnership with parents to ensure seamless communication and mutual support in a child's development.",
   },
 ];
+
+export const contactData = [
+  {
+    title: "hello@littlelearners.com",
+    icon: "contact-1.png",
+  },
+  {
+    title: "+221 000 00 00",
+    icon: "contact-2.png",
+  },
+  {
+    title: "Senegal",
+    icon: "contact-3.png",
+  },
+  {
+    title: "Office Hours - 9am - 6 pm",
+    icon: "contact-4.png",
+  },
+];
