@@ -19,3 +19,4 @@ export * from "./gallery";
 export * from "./tabs";
 export * from "./admissions-process";
 export * from "./activities";
+export * from "./student-support";

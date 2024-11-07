@@ -628,3 +628,24 @@ export const ourAcitivies = [
       "Cooking classes introduce students to the joys of preparing and tasting delicious and healthy meals.",
   },
 ];
+
+export const studentSupport = [
+  {
+    title: "Counseling",
+    icon: "student-support-1.png",
+    description:
+      "Professional counselors offer guidance and support to students, addressing their emotional and social well-being.",
+  },
+  {
+    title: "Learning Support",
+    icon: "student-support-2.png",
+    description:
+      "Our educators provide additional assistance to students who may require extra support in their academic journey.",
+  },
+  {
+    title: "Parent-Teacher Collaboration",
+    icon: "student-support-3.png",
+    description:
+      "We foster a strong partnership with parents to ensure seamless communication and mutual support in a child's development.",
+  },
+];
