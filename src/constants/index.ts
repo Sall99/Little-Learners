@@ -550,3 +550,121 @@ export const gardenandNatureArea = {
   description:
     "Our garden and nature area offer an opportunity for children to connect with nature and learn about plants and the environment.",
 };
+
+export const admissionProcess = [
+  {
+    step: 1,
+    title: "Inquiry",
+    description:
+      "Submit an inquiry form through our website or contact our admissions office to express your interest in Little Learners Academy.",
+  },
+  {
+    step: 2,
+    title: "School Tour",
+    description:
+      "Schedule a personalized school tour to explore our campus, meet our staff, and gain insights into our nurturing learning environment.",
+  },
+  {
+    step: 3,
+    title: "Application Form",
+    description:
+      "Complete the application form and provide the required documents, including your child’s birth certificate, medical records, and any previous academic records (if applicable).",
+  },
+  {
+    step: 4,
+    title: "Parent Interview",
+    description:
+      "We value parent engagement, and a meeting with our admissions team allows us to understand your child’s needs and ensure Little Learners Academy aligns with your family’s expectations.",
+  },
+  {
+    step: 5,
+    title: "Student Assessment",
+    description:
+      "For certain age groups, a student assessment may be conducted to understand their developmental progress and ensure the best placement.",
+  },
+  {
+    step: 6,
+    title: "Acceptance",
+    description:
+      "Once the admission process is complete, you will receive an official acceptance letter from Little Learners Academy.",
+  },
+];
+
+export const ourAcitivies = [
+  {
+    title: "Sports and Athletics",
+    icon: "activies-1.png",
+    description:
+      "Students can participate in various sports, from soccer and basketball to gymnastics and yoga. Sports help promote teamwork, physical fitness, and a sense of discipline.",
+  },
+  {
+    title: "Art and Creativity",
+    icon: "activies-2.png",
+    description:
+      "Our art classes and creative workshops provide a platform for students to express their creativity through painting, drawing, and other artistic forms.",
+  },
+  {
+    title: "Music and Performing Arts",
+    icon: "activies-3.png",
+    description:
+      "Students can discover their musical talents through singing, playing musical instruments, and participating in drama and theater performances.",
+  },
+  {
+    title: "Language Clubs",
+    icon: "activies-4.png",
+    description:
+      "Language clubs offer an opportunity for students to immerse themselves in different languages and cultures, fostering global awareness.",
+  },
+  {
+    title: "Science Club",
+    icon: "activies-5.png",
+    description:
+      "The science club allows young scientists to explore the wonders of science through fun experiments and hands-on learning.",
+  },
+  {
+    title: "Cooking and Culinary Arts",
+    icon: "activies-6.png",
+    description:
+      "Cooking classes introduce students to the joys of preparing and tasting delicious and healthy meals.",
+  },
+];
+
+export const studentSupport = [
+  {
+    title: "Counseling",
+    icon: "student-support-1.png",
+    description:
+      "Professional counselors offer guidance and support to students, addressing their emotional and social well-being.",
+  },
+  {
+    title: "Learning Support",
+    icon: "student-support-2.png",
+    description:
+      "Our educators provide additional assistance to students who may require extra support in their academic journey.",
+  },
+  {
+    title: "Parent-Teacher Collaboration",
+    icon: "student-support-3.png",
+    description:
+      "We foster a strong partnership with parents to ensure seamless communication and mutual support in a child's development.",
+  },
+];
+
+export const contactData = [
+  {
+    title: "hello@littlelearners.com",
+    icon: "contact-1.png",
+  },
+  {
+    title: "+221 000 00 00",
+    icon: "contact-2.png",
+  },
+  {
+    title: "Senegal",
+    icon: "contact-3.png",
+  },
+  {
+    title: "Office Hours - 9am - 6 pm",
+    icon: "contact-4.png",
+  },
+];

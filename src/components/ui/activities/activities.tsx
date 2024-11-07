@@ -1,8 +1,8 @@
-import Image from "next/image";
 import React from "react";
+import Image from "next/image";
 
 import { Heading, Typography } from "@/components";
-import { educationPrograms } from "@/constants";
+import { ourAcitivies } from "@/constants";
 
 interface CardProps {
   title: string;
@@ -31,19 +31,18 @@ const Card = ({ title, description, icon }: CardProps) => {
     </div>
   );
 };
-
-export const Features = () => {
+export function Activities() {
   return (
     <section className="mb-10 px-4 lg:mb-_150 lg:mt-_60 lg:px-_50 2xl:mb-_200">
       <div className="m-auto max-w-_1590">
         <Heading
           bntText="Our Features"
-          title="Our Special Features"
-          description="Our kinder garden school provides a nurturing and stimulating environment, fostering a love for learning that lasts a lifetime. Join us as we embark on an exciting educational journey together!"
+          title="Extracurricular Activities"
+          description="At Little Learners Academy, we believe in nurturing well-rounded individuals. Our extracurricular activities offer a diverse range of experiences that complement our academic curriculum and encourage students to explore their interests and passions. We offer a wide array of extracurricular activities, including"
         />
         <div>
           <ul className="grid grid-cols-1 gap-10 gap-y-_76 lg:grid-cols-2 min-[1350px]:grid-cols-3">
-            {educationPrograms.map(({ title, description, icon }, key) => (
+            {ourAcitivies.map(({ title, description, icon }, key) => (
               <li key={key}>
                 <Card title={title} description={description} icon={icon} />
               </li>
@@ -53,4 +52,4 @@ export const Features = () => {
       </div>
     </section>
   );
-};
+}
