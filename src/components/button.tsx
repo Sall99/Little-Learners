@@ -56,7 +56,7 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
           variants[variant],
           sizes[size],
           widthClass,
-          "sm:text-sm md:text-base lg:text-lg",
+          "ring-primary-700 sm:text-sm md:text-base lg:text-lg",
           "sm:px-3 md:px-4 lg:px-6",
           "sm:py-1.5 md:py-2 lg:py-3",
           className,
