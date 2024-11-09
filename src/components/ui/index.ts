@@ -21,3 +21,4 @@ export * from "./admissions-process";
 export * from "./activities";
 export * from "./student-support";
 export * from "./contact-form";
+export * from "./events-celebration";

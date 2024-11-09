@@ -668,3 +668,48 @@ export const contactData = [
     icon: "contact-4.png",
   },
 ];
+
+export const eventsData = [
+  {
+    title: "Annual Sports Day",
+    description:
+      "A day filled with friendly competition, team spirit, and sportsmanship.",
+    image:
+      "https://res.cloudinary.com/dx6jhjxpt/image/upload/v1731182334/little-learners/Image_39_aeizpq.png",
+  },
+  {
+    title: "Cultural Festivals",
+    description:
+      "Celebrations of diverse cultural festivals, promoting cultural exchange and appreciation.",
+    image:
+      "https://res.cloudinary.com/dx6jhjxpt/image/upload/v1731182334/little-learners/Image_40_g1hg0c.png",
+  },
+  {
+    title: "Art Exhibitions",
+    description:
+      "Showcasing our students' artistic talents through exhibitions and displays.",
+    image:
+      "https://res.cloudinary.com/dx6jhjxpt/image/upload/v1731182334/little-learners/Image_41_dnkmzl.png",
+  },
+  {
+    title: "Science Fair",
+    description:
+      "A platform for budding scientists to present their innovative projects and experiments.",
+    image:
+      "https://res.cloudinary.com/dx6jhjxpt/image/upload/v1731182427/little-learners/Image_42_suregs.png",
+  },
+  {
+    title: "International Day",
+    description:
+      "A vibrant celebration of our diverse community, embracing cultures from around the world.",
+    image:
+      "https://res.cloudinary.com/dx6jhjxpt/image/upload/v1731182428/little-learners/Image_43_gprmdk.png",
+  },
+  {
+    title: "Graduation Ceremony",
+    description:
+      "A significant milestone as our Kindergarten students prepare to embark on their academic journey.",
+    image:
+      "https://res.cloudinary.com/dx6jhjxpt/image/upload/v1731182428/little-learners/Image_44_wuntny.png",
+  },
+];

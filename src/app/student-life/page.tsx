@@ -1,4 +1,9 @@
-import { Activities, Overview, StudentSupport } from "@/components";
+import {
+  Activities,
+  EventsCelebration,
+  Overview,
+  StudentSupport,
+} from "@/components";
 import React from "react";
 
 const StudentLife = () => {
@@ -12,6 +17,7 @@ const StudentLife = () => {
         }
       />
       <Activities />
+      <EventsCelebration />
       <StudentSupport />
     </>
   );
