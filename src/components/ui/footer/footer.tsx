@@ -131,9 +131,9 @@ export const Footer = () => {
             {footerSocialNetworkLinks.map(({ name, icon }, key) => (
               <div
                 key={key}
-                className="flex h-12 w-12 items-center justify-center rounded-lg border-2 border-gray-700 bg-primary-400 2xl:h-14 2xl:w-14"
+                className="flex h-12 w-12 items-center justify-center rounded-lg border-2 border-gray-700 bg-primary-300 2xl:h-14 2xl:w-14"
               >
-                <div className="2l:w-6 relative h-5 w-5 2xl:h-6">
+                <div className="relative h-5 w-5 2xl:h-6 2xl:w-6">
                   <Image src={`/assets/img/${icon}`} alt={name} fill />
                 </div>
               </div>
