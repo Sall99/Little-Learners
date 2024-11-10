@@ -22,3 +22,4 @@ export * from "./activities";
 export * from "./student-support";
 export * from "./contact-form";
 export * from "./events-celebration";
+export * from "./tuition-fees";
