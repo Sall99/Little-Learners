@@ -14,7 +14,7 @@ const Card = ({ title, description, image }: CardProps) => {
   return (
     <div className="lg-box-shadow relative m-auto rounded-xl border-2 border-gray-700 bg-white p-_30 min-[400px]:w-_358 sm:h-_467 lg:w-_400 lg:p-10 2xl:h-_570 2xl:w-_498 2xl:p-_50">
       <div className="absolute left-1/2 top-0 -translate-x-1/2 transform">
-        <div className="relative h-_237 w-_93 lg:h-_283 lg:w-_125 2xl:h-_384">
+        <div className="relative hidden h-_237 w-_93 sm:block lg:h-_283 lg:w-_125 2xl:h-_384">
           <Image src="/assets/img/shape.png" alt="Shape" fill />
         </div>
       </div>
