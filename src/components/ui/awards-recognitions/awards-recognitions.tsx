@@ -74,9 +74,9 @@ export const AwardsRecognitions = () => {
     <section className="layout awards-recognitions">
       <div className="m-auto max-w-_1590">
         <Heading
-          bntText="Their Happy Words 🤗"
-          title=" Our Testimonials"
-          description="Our testimonials are heartfelt reflections of the nurturing environment we provide, where children flourish both academically and emotionally."
+          bntText="Our Achievements"
+          title="Our Awards and Recognitions"
+          description="Little Learners Academy takes pride in our commitment to delivering high-quality education and outstanding student experiences. We are honored to have received various awards and recognitions for our dedication to early childhood education. These accolades reflect our team's relentless efforts in creating an exceptional learning environment for our students."
         />
 
         <div className="min-[600px]:px-_88 2xl:px-_108">
