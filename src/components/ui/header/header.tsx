@@ -1,12 +1,23 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
+import clsx from "clsx";
+import { motion, AnimatePresence } from "framer-motion";
 
 import { Typography } from "@/components";
 import { NavLinks } from "@/constants";
 import { usePathname } from "next/navigation";
-import clsx from "clsx";
+import { X } from "lucide-react";
+
+interface MenuBurgerProps {
+  toggleMenu: () => void;
+}
+
+interface MenuMobileProps {
+  isMenuOpen: boolean;
+  toggleMenu: () => void;
+}
 
 const Logo = () => {
   return (
@@ -23,17 +34,72 @@ const Logo = () => {
   );
 };
 
-const MobileMenu = () => {
+const MenuBurger = ({ toggleMenu }: MenuBurgerProps) => {
   return (
-    <div className="flex h-_66 w-_88 items-center justify-center rounded-br-xl rounded-tr-xl border-l-2 border-gray-800 bg-primary-300 lg:hidden">
+    <motion.div
+      onClick={toggleMenu}
+      whileTap={{ scale: 0.9 }}
+      className="flex h-_66 w-_88 items-center justify-center rounded-br-xl rounded-tr-xl border-l-2 border-gray-800 bg-primary-300 lg:hidden"
+    >
       <div className="relative h-7 w-7">
         <Image src="/assets/img/burger.png" fill alt="Logo" />
       </div>
-    </div>
+    </motion.div>
+  );
+};
+
+const MobileMenu = ({ isMenuOpen, toggleMenu }: MenuMobileProps) => {
+  const pathName = usePathname();
+  return (
+    <AnimatePresence>
+      {isMenuOpen && (
+        <motion.div
+          className="abs fixed inset-0 z-50 bg-white lg:hidden"
+          initial={{ x: "100%" }}
+          animate={{ x: 0 }}
+          exit={{ x: "100%" }}
+          transition={{ type: "spring", stiffness: 300, damping: 30 }}
+        >
+          <div className="flex h-full flex-col items-center justify-center gap-8">
+            <ul className="">
+              {NavLinks.map(({ name, path }, key) => {
+                const isActive = pathName === path;
+                return (
+                  <li
+                    key={key}
+                    className={clsx(
+                      "flex h-_66 items-center justify-center px-_30",
+                      isActive ? "underline underline-offset-2" : "",
+                    )}
+                    onClick={toggleMenu}
+                  >
+                    <Link href={path}>
+                      <Typography variant="p" paragraphSize="sm">
+                        {name}
+                      </Typography>
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+          <motion.div
+            className="absolute left-5 top-5 z-50"
+            whileTap={{ scale: 0.9 }}
+          >
+            <X size={24} onClick={toggleMenu} />
+          </motion.div>
+        </motion.div>
+      )}
+    </AnimatePresence>
   );
 };
 
 export const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+
   const pathName = usePathname();
   return (
     <header className="mb-_50 mt-_14 px-4 lg:mb-_60 lg:px-_50 2xl:mb-20">
@@ -66,7 +132,8 @@ export const Header = () => {
               );
             })}
           </ul>
-          <MobileMenu />
+          <MenuBurger toggleMenu={toggleMenu} />
+          <MobileMenu isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
         </div>
       </div>
     </header>
