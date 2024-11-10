@@ -1,6 +1,6 @@
 import React from "react";
 
-import { AdmissionsProcess, Overview } from "@/components";
+import { AdmissionsProcess, Overview, TuitionFees } from "@/components";
 
 const AdmissionsPage = () => {
   return (
@@ -13,6 +13,7 @@ const AdmissionsPage = () => {
         }
       />
       <AdmissionsProcess />
+      <TuitionFees />
     </>
   );
 };

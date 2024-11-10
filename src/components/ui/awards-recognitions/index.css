@@ -1,5 +1,5 @@
 .awards-recognitions .slick-prev,
-.slick-next {
+.awards-recognitions .slick-next {
   width: 48px;
   height: 48px;
   border: 2px solid var(--gray-color-700);
@@ -9,18 +9,18 @@
 }
 
 .awards-recognitions .slick-prev:before,
-.slick-next:before {
+.awards-recognitions .slick-next:before {
   color: black;
 }
 .awards-recognitions .slick-prev,
-.slick-next {
+.awards-recognitions .slick-next {
   color: black;
 }
 
 .awards-recognitions .slick-prev:hover,
-.slick-prev:focus,
-.slick-next:hover,
-.slick-next:focus {
+.awards-recognitions .slick-prev:focus,
+.awards-recognitions .slick-next:hover,
+.awards-recognitions .slick-next:focus {
   color: rgb(99, 99, 99);
   outline: none;
   background: rgb(99, 99, 99);
@@ -31,7 +31,7 @@
 }
 
 .awards-recognitions .slick-prev,
-.slick-next {
+.awards-recognitions .slick-next {
   top: 111%;
 }
 

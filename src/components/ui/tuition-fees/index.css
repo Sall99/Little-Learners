@@ -1,0 +1,17 @@
+.tuition-fees tbody:before {
+  content: "@";
+  display: block;
+  line-height: 30px;
+  text-indent: -99999px;
+}
+
+.tuition-fees .table-2 tbody:before {
+  content: none;
+}
+
+.tuition-fees table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
